@@ -1,227 +1,296 @@
-# learn-fullStack-dotnet-60days
+# 🚀 60 Days Full Stack .NET Daily Plan
 
-🚀 60-Day Full Stack .NET Developer Roadmap
-🎯 Goal
-
+## 🎯 Goal
 Build a Student Management System using:
+- SQL Server (Stored Procedures)
+- ASP.NET Core Web API (Dapper)
+- React (CRUD UI)
 
-SQL Server (Stored Procedures)
-ASP.NET Core Web API (Dapper)
+---
 
-React (CRUD UI)
+## 🧠 Rule
+✔ Always follow:
+**SQL → C# → API → React**
 
-⏱️ Daily Study Plan (6 Hours)
+---
 
-2 hrs → SQL Server (Database + Stored Procedures)
+# 🟢 PHASE 1: DAY 1–15 (FOUNDATIONS + CRUD)
 
-2 hrs → C# + .NET Web API
+### Day 1
+- [ ] Setup SQL Server, Visual Studio, Node
+- [ ] Understand DB → API → UI flow
 
-2 hrs → Practice (Project Implementation)
+### Day 2
+- [ ] SQL: Create DB + Student table
+- [ ] C#: Variables
+- [ ] API: Create project
+- [ ] React: Setup app
 
-🧠 Learning Approach
-Database → Stored Procedure → API → React UI
+### Day 3
+- [ ] SQL: CREATE TABLE, PK, IDENTITY
+- [ ] C#: Input/Output
+- [ ] API: Create Controller
+- [ ] React: Components
 
-❌ Do NOT learn separately
-✅ Always build end-to-end
+### Day 4
+- [ ] SQL: INSERT
+- [ ] C#: if/else
+- [ ] API: GET endpoint
+- [ ] React: JSX
 
-🟢 PHASE 1: DAY 1–15 (DATABASE + C# BASICS)
+### Day 5
+- [ ] SQL: SELECT
+- [ ] C#: loops
+- [ ] API: Return list
+- [ ] React: useState
 
-Day 1
+### Day 6
+- [ ] SQL: WHERE
+- [ ] C#: methods
+- [ ] API: GET by ID
+- [ ] React: Fetch API
 
-Install: SQL Server, SSMS, Visual Studio, Node
+### Day 7
+- [ ] SQL: UPDATE
+- [ ] C#: parameters
+- [ ] API: PUT
+- [ ] React: Edit form
 
-Understand: DB, API, UI, CRUD
+### Day 8
+- [ ] SQL: DELETE
+- [ ] C#: classes
+- [ ] API: DELETE
+- [ ] React: Delete button
 
-Create simple C# console app
+### Day 9
+- [ ] SQL: ORDER BY, TOP
+- [ ] C#: objects
+- [ ] API: Sorting
+- [ ] React: Table UI
 
+### Day 10
+- [ ] SQL: LIKE (Search)
+- [ ] C#: List<T>
+- [ ] API: Search API
+- [ ] React: Search UI
 
-Day 2
+### Day 11
+- [ ] SQL: COUNT
+- [ ] C#: collections
+- [ ] API: Count response
+- [ ] React: Show total
 
-SQL: Data types, create DB
+### Day 12
+- [ ] SQL: NULL, constraints
+- [ ] C#: constructors
+- [ ] API: Validation
+- [ ] React: Form validation
 
-C#: Variables
+### Day 13
+- [ ] SQL: JOIN
+- [ ] C#: exception handling
+- [ ] API: Join data
+- [ ] React: Display joined data
 
-Create Student table structure
+### Day 14
+- [ ] Full CRUD revision
+- [ ] Fix bugs
 
-Day 3
-SQL: CREATE TABLE, PRIMARY KEY, IDENTITY
-C#: Input/Output
-Create full Student table
-Day 4
-SQL: INSERT
-C#: if/else
-Insert 5 records
-Day 5
-SQL: SELECT
-C#: loops
-Display records
-Day 6
-SQL: UPDATE
-C#: methods
-Update data
-Day 7
-SQL: DELETE, WHERE
-C#: method parameters
-Filter + delete data
-Day 8
-SQL: ORDER BY, TOP
-C#: classes
-Create Student class
-Day 9
-SQL: LIKE
-C#: objects
-Search data
-Day 10
-SQL: COUNT, MIN, MAX
-C#: List<T>
-Day 11
-SQL: NULL, constraints
-C#: constructors
-Day 12
-SQL: JOIN basics
-C#: exception handling
-Day 13
-Practice full CRUD queries
-Build console CRUD logic
-Day 14
-Recreate DB + table from scratch
-Execute all queries
-Day 15
-Mini project:
-Student table + CRUD ready
-🔥 PHASE 2: DAY 16–25 (STORED PROCEDURES + API BASICS)
-Day 16
-Create SP: Student_GetAll
-Day 17
-Create SP: Student_Insert
-Day 18
-Create SP: Student_Update
-Day 19
-Create SP: Student_Delete
-Day 20
-Create SP: Student_GetById
-Day 21
-Create SP: Student_Search
-Day 22
-Test all stored procedures
-Day 23
-Create ASP.NET Core Web API project
-Day 24
-Controllers, routing
-Create StudentController
-Day 25
-HTTP methods:
-GET
-POST
-PUT
-DELETE
-🚀 PHASE 3: DAY 26–35 (API + DATABASE INTEGRATION)
-Day 26
-Setup DB connection (SqlConnection)
-Day 27
-Read data using ADO.NET
-Day 28
-Install Dapper
-Day 29
-GET all students API
-Day 30
-GET by ID API
-Day 31
-POST (Insert)
-Day 32
-PUT (Update)
-Day 33
-DELETE API
-Day 34
-Search API
-Day 35
-Test all APIs in Swagger
-🎨 PHASE 4: DAY 36–45 (REACT + FULL PROJECT)
-Day 36
-Setup React (Vite)
-Day 37
-Components + JSX
-Day 38
-useState
-Day 39
-useEffect
-Day 40
-Fetch API
-Day 41
-Display table data
-Day 42
-Add student form
-Day 43
-Edit + Delete
-Day 44
-Form binding + validation
-Day 45
-✅ Full CRUD UI working
-✅ UI → API → DB complete
-🚀 PHASE 5: DAY 46–60 (JOB READY)
-Day 46–48
-Add Search (SQL + API + UI)
-Day 49–51
-Add Pagination
-Day 52–53
-Improve UI (CSS)
-Day 54–55
-Clean architecture:
-DTOs
-Service layer
-Day 56
-Upload project to GitHub
-Day 57–58
-Prepare interview questions:
-SQL
-API
-React
-Day 59
-Mock interview
-Day 60
-🎯 Final:
-Explain project confidently
-Ready for interviews
-📦 Final Project Structure
-SQL Server (Stored Procedures)
-        ↓
-.NET Web API (Dapper)
-        ↓
-React UI (CRUD)
-🧾 Core Topics Checklist
-SQL Server
-Tables, keys, joins
-CRUD operations
-Stored procedures
-Search
-Pagination
-C#
-Variables, loops, methods
-Classes, objects
-Collections
-Exception handling
-.NET Web API
-Controllers
-Routing
-HTTP methods
-Dapper
-Swagger
-React
-Components
-useState, useEffect
-Forms
-API calls
-Table rendering
-CSS
-Layout
-Spacing
-Form styling
-Table styling
-🔥 Golden Rule
-Always follow:
-Table → Stored Procedure → API → UI
-💼 Outcome
+### Day 15
+- [ ] Mini project ready (CRUD complete)
 
-✔ Build real-world CRUD app
-✔ Understand full stack flow
-✔ Ready for junior .NET developer role
+---
+
+# 🚀 PHASE 2: DAY 16–25 (STORED PROCEDURES)
+
+### Day 16
+- [ ] SQL: SP basics
+- [ ] C#: ADO.NET intro
+- [ ] API: DB connection
+- [ ] React: reuse API
+
+### Day 17
+- [ ] SQL: SP GetAll
+- [ ] C#: SqlConnection
+- [ ] API: GET via SP
+- [ ] React: bind list
+
+### Day 18
+- [ ] SQL: SP Insert
+- [ ] C#: parameters
+- [ ] API: POST
+- [ ] React: add form
+
+### Day 19
+- [ ] SQL: SP Update
+- [ ] C#: mapping
+- [ ] API: PUT
+- [ ] React: edit UI
+
+### Day 20
+- [ ] SQL: SP Delete
+- [ ] C#: execute
+- [ ] API: DELETE
+- [ ] React: delete UI
+
+### Day 21
+- [ ] SQL: SP GetById
+- [ ] C#: single record
+- [ ] API: GET by ID
+- [ ] React: view page
+
+### Day 22
+- [ ] SQL: SP Search
+- [ ] C#: dynamic params
+- [ ] API: search endpoint
+- [ ] React: search UI
+
+### Day 23
+- [ ] SQL: SP error handling
+- [ ] C#: try/catch
+- [ ] API: error responses
+- [ ] React: error UI
+
+### Day 24
+- [ ] SQL: transactions
+- [ ] C#: transaction scope
+- [ ] API: transactional APIs
+- [ ] React: confirmation
+
+### Day 25
+- [ ] Test all SPs + APIs
+
+---
+
+# 🚀 PHASE 3: DAY 26–35 (DAPPER + CLEAN API)
+
+### Day 26
+- [ ] SQL: optimize queries
+- [ ] C#: install Dapper
+- [ ] API: Dapper setup
+- [ ] React: refactor calls
+
+### Day 27
+- [ ] SQL: pagination
+- [ ] C#: QueryAsync
+- [ ] API: pagination API
+- [ ] React: pagination UI
+
+### Day 28
+- [ ] SQL: indexing basics
+- [ ] C#: performance
+- [ ] API: optimize endpoints
+- [ ] React: optimize UI
+
+### Day 29
+- [ ] SQL: filtering
+- [ ] C#: DTOs
+- [ ] API: clean responses
+- [ ] React: filter UI
+
+### Day 30
+- [ ] SQL: multi result sets
+- [ ] C#: QueryMultiple
+- [ ] API: advanced API
+- [ ] React: dashboard
+
+### Day 31
+- [ ] SQL: soft delete
+- [ ] C#: flags
+- [ ] API: active/inactive
+- [ ] React: toggle
+
+### Day 32
+- [ ] SQL: audit columns
+- [ ] C#: models
+- [ ] API: audit handling
+- [ ] React: show metadata
+
+### Day 33
+- [ ] SQL: lookup tables
+- [ ] C#: enums
+- [ ] API: lookup APIs
+- [ ] React: dropdowns
+
+### Day 34
+- [ ] SQL: validation rules
+- [ ] C#: validation
+- [ ] API: model validation
+- [ ] React: validation UI
+
+### Day 35
+- [ ] Clean architecture ready
+
+---
+
+# 🎨 PHASE 4: DAY 36–45 (REACT ADVANCED)
+
+### Day 36
+- [ ] React project structure
+
+### Day 37
+- [ ] Reusable components
+
+### Day 38
+- [ ] Forms handling
+
+### Day 39
+- [ ] Form validation
+
+### Day 40
+- [ ] API service layer
+
+### Day 41
+- [ ] Table UI improvements
+
+### Day 42
+- [ ] Modal forms
+
+### Day 43
+- [ ] Routing
+
+### Day 44
+- [ ] Protected routes
+
+### Day 45
+- [ ] Full UI complete
+
+---
+
+# 🚀 PHASE 5: DAY 46–60 (JOB READY)
+
+### Day 46–48
+- [ ] Full search + pagination
+
+### Day 49–51
+- [ ] UI enhancements
+
+### Day 52–53
+- [ ] Full error handling
+
+### Day 54–55
+- [ ] JWT authentication
+
+### Day 56
+- [ ] Deploy API
+
+### Day 57
+- [ ] Deploy React
+
+### Day 58
+- [ ] GitHub upload
+
+### Day 59
+- [ ] Mock interviews
+
+### Day 60
+- [ ] Final review
+- [ ] Explain project confidently
+
+---
+
+# 🎯 Final Outcome
+
+✔ Full Stack Project Completed  
+✔ Strong SQL + API + React Knowledge  
+✔ Interview Ready 🚀
