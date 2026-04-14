@@ -6,7 +6,7 @@
 
 ## 💻 Backend Development (.NET)
 
-### IDE / Code Editor
+### IDE / Code Editor Visual Studio = Everything-in-one tool to build, debug, and run .NET applications easily
 - Visual Studio (Recommended for beginners & enterprise apps)
 - Visual Studio Code (Lightweight and flexible)
 
