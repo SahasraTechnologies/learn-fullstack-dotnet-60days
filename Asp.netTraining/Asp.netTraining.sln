@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.netTraining", "Asp.netT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetConsole", "..\DotnetConsole\DotnetConsole.csproj", "{7AFFC794-6AA9-49A8-857F-70A720E872FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Models\Models.csproj", "{67F0001F-2C8A-4685-95FF-4057833A4F2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7AFFC794-6AA9-49A8-857F-70A720E872FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AFFC794-6AA9-49A8-857F-70A720E872FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AFFC794-6AA9-49A8-857F-70A720E872FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F0001F-2C8A-4685-95FF-4057833A4F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F0001F-2C8A-4685-95FF-4057833A4F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F0001F-2C8A-4685-95FF-4057833A4F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F0001F-2C8A-4685-95FF-4057833A4F2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
