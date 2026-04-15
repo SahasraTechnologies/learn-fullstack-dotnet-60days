@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DotnetTraining
+/.vs
+/Asp.netTraining/obj
+/Asp.netTraining/.vs/Asp.netTraining/CopilotIndices/17.14.1569.27729
+/Asp.netTraining/.vs/Asp.netTraining/FileContentIndex
+/Asp.netTraining/.vs/Asp.netTraining/v17/DocumentLayout.json
+/Asp.netTraining/.vs/Asp.netTraining/v17/.suo
+/DotnetConsole/obj
+/Asp.netTraining/Asp.netTraining.csproj.user
