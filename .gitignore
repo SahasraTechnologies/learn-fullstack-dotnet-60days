@@ -12,3 +12,12 @@
 /DotnetConsole/obj
 /Asp.netTraining/Asp.netTraining.csproj.user
 /Models/obj
+*.db
+*.db-shm
+*.db-wal
+*.v2
+/Asp.netTraining/.vs/Asp.netTraining/v17/DocumentLayout.backup.json
+*.json
+*.suo
+*.dll
+*.pdb
